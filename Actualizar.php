@@ -12,13 +12,14 @@ td { padding: 0.2em 2em ; }
 <body>
 <h1>ACTUALIZACIÓN DE INFORMACIÓN</h1>
 <br/>
+<br/>
 
 <div class="row">
   <div class="col-sm-2">
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Usuarios</a></li>
-            <li><a href="insertar.php">Productos</a></li>
+            <li class="active"><a href="index.php">Listar Usuarios</a></li>
+            <li><a href="insertar.php">Insertar Usuarios</a></li>
             <li><a href="#">Historial</a></li>
             <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
           </ul>
@@ -105,7 +106,7 @@ td { padding: 0.2em 2em ; }
 </p>
 <br/>
 
-<button type="submit" class="btn btn-default">Actualizar</button>
+<button type="submit" class="btn btn-default">Actualizar datos</button>
 <button type="submit" class="btn btn-default">Borrar todo</button>
 </form>
 </div>
