@@ -5,12 +5,21 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
  </head>
  <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
-   <form action="accion.php" method="post">
-     <p>Su nombre: <input type="text" name="nombre" /></p>
-     <p>Su edad: <input type="text" name="edad" /></p>
-     <button class="btn btn-primary">enviar</button>
-  </form>
+
+ <h1>USUARIOS WEB</h1>
+ <div class="row">
+  <div class="col-sm-2">
+    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Menu Item 1</a></li>
+            <li><a href="#">Menu Item 2</a></li>
+            <li><a href="#">Menu Item 3</a></li>
+            <li><a href="#">Menu Item 4</a></li>
+            <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+          </ul>
+        </div>
+  </div>
+  <div class="col-sm-6">
     <table class="table">
     <thead>
       <tr>
@@ -52,6 +61,11 @@
       </tr>
     </tbody>
   </table>
+  </div>
+  <div class="col-sm-3">
+    
+  </div>
+</div>    
  </body>
  <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
