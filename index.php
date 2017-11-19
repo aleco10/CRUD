@@ -14,8 +14,8 @@
   <div class="col-sm-2">
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Usuarios</a></li>
-            <li><a href="#">Listar Usuarios</a></li>
+            <li class="active"><a href="index.php">Listar Usuarios</a></li>
+            <li><a href="insertar.php">Insertar Usuarios</a></li>
             <li><a href="#">Historial</a></li>
             <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
           </ul>
@@ -40,7 +40,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
@@ -54,7 +54,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
@@ -68,7 +68,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
@@ -82,7 +82,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
@@ -96,7 +96,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
@@ -110,7 +110,7 @@
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">Editar</a></li>
+    <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
     <li><a href="#">Detalle</a></li>
   </ul>
