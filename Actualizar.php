@@ -10,23 +10,65 @@ td { padding: 0.2em 2em ; }
 
 </head>
 <body>
-<h1>ACTUALIZACIÓN DE DATOS</h1>
-<form action="comprobar.php" method="post"/>
+<h1>ACTUALIZACIÓN DE INFORMACIÓN</h1>
+<br/>
 
-<p>Nombre: <input type="text" name="nombre" size="35"/><br/>
-<p>Apellidos: <input type="text" name="apellidos" size="35"/><br/>   
-<p>DNI: <input type="text" name="dni" size="40"/><br/>
-<p>Dirección: <input type="text" name="direccion" size="35"/><br/>
-<p>E-mail: <input type="text" name="email" size="35"/><br/>
-<p>Contraseña: <input type="password" name="contras" size="35"/><br/>
+<div class="row">
+  <div class="col-sm-2">
+    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php">Usuarios</a></li>
+            <li><a href="insertar.php">Productos</a></li>
+            <li><a href="#">Historial</a></li>
+            <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+          </ul>
+        </div>
+  </div>
+  <div class="col-sm-8">
+
+<form class="form-inline" action="comprobar.php" method="post"/>
+
+ <div class="col-sm-4">
+    <label>Nombres y Apellidos:</label>
+  </div>
+  <div class="col-sm-8">
+    <input name="nombre" type="text" class="form-control" id="nombre" size="30"/><br/>
+  </div>
+ 
+  <div class="col-sm-4">
+    <label>Documento de Identificación (DNI):</label>
+  </div>
+  <div class="col-sm-8">  
+    <input name="dni" type="text" class="form-control" id="dni" size="30"/><br/>
+  </div>
+
+  <div class="col-sm-4">
+    <label>Dirección: </label>
+  </div>
+  <div class="col-sm-8">
+    <input name="direccion" type="text" class="form-control" id="direccion" size="30"/><br/>
+  </div>
+
+  <div class="col-sm-4">
+    <label>Correo Electrónico: </label>
+  </div>
+  <div class="col-sm-8">
+    <input name="email" type="text" class="form-control" id="email" size="30"/><br/>
+  </div>
+
+  <br/>
+</form><br/>
+
 <table>
    <tr>
    <td>
+   <br/>
    Sexo<br/>
    <input type="radio" name="sexo" value="V"/> Masculino<br/>
    <input type="radio" name="sexo" value="M"/> Femenino</p>
    </td>
    <td>
+   <br/>
    Nivel de estudios<br/>
    <input type="radio" name="estudios" value="elemental" checked="checked">
      Certificado escolar<br/>
@@ -38,6 +80,7 @@ td { padding: 0.2em 2em ; }
      Diplomado<br/>
    </td>
    <td>
+   <br/>
    Interesado en los siguientes temas: <br/>
    <input type="checkbox" name="musica"/> Música<br/>
    <input type="checkbox" name="deportes"/> Deportes<br/>
@@ -47,6 +90,7 @@ td { padding: 0.2em 2em ; }
    </td>
    </tr>
 </table>
+<br/>
 <p>Día de la semana que le interesa recibirlo:</p>
 <select name="dia">
     <option> Seleccionar </option> 
@@ -59,9 +103,17 @@ td { padding: 0.2em 2em ; }
     <option value="Domingo">Domingo</option> 
 </select>
 </p>
-<p><input type="reset" value="Borrar todo"></p>
+<br/>
+
+<button type="submit" class="btn btn-default">Actualizar</button>
+<button type="submit" class="btn btn-default">Borrar todo</button>
 </form>
-</body>
-<script src="js/jquery.js"></script>
+</div>
+  <div class="col-sm-3">
+    
+  </div>
+</div>    
+ </body>
+ <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
 </html>
