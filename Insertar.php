@@ -11,24 +11,63 @@ td { padding: 0.2em 2em ; }
 </head>
 <body>
 <h1>SUSCRIPCIÓN ELECTRÓNICA A NUESTRO BOLETIN</h1>
-<p>Nota: Este es un formulario de ejemplo en el que los datos aquí escritos se 
-trasladan a otra página.</p>
-<form action="comprobar.php" method="post"/>
+<br/>
 
-<p>Nombre: <input type="text" name="nombre" size="35"/><br/>
-<p>Apellidos: <input type="text" name="apellidos" size="35"/><br/>   
-<p>DNI: <input type="text" name="dni" size="40"/><br/>
-<p>Dirección: <input type="text" name="direccion" size="35"/><br/>
-<p>E-mail: <input type="text" name="email" size="35"/><br/>
-<p>Contraseña: <input type="password" name="contras" size="35"/><br/>
+<div class="row">
+  <div class="col-sm-2">
+    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Usuarios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Historial</a></li>
+            <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+          </ul>
+        </div>
+  </div>
+  <div class="col-sm-8">
+
+<form class="form-inline">
+ <div class="col-sm-4">
+    <label>Nombres y Apellidos:</label>
+  </div>
+  <div class="col-sm-8">
+    <input name="nombre" type="text" class="form-control" id="nombre" size="30"/><br/>
+  </div>
+ 
+  <div class="col-sm-4">
+    <label>Documento de Identificación (DNI):</label>
+  </div>
+  <div class="col-sm-8">  
+    <input name="dni" type="text" class="form-control" id="dni" size="30"/><br/>
+  </div>
+
+  <div class="col-sm-4">
+    <label>Dirección: </label>
+  </div>
+  <div class="col-sm-8">
+    <input name="direccion" type="text" class="form-control" id="direccion" size="30"/><br/>
+  </div>
+
+  <div class="col-sm-4">
+    <label>Correo Electrónico: </label>
+  </div>
+  <div class="col-sm-8">
+    <input name="email" type="text" class="form-control" id="email" size="30"/><br/>
+  </div>
+
+  <br/>
+</form><br/>
+
 <table>
    <tr>
    <td>
+   <br/>
    Sexo<br/>
    <input type="radio" name="sexo" value="V"/> Masculino<br/>
    <input type="radio" name="sexo" value="M"/> Femenino</p>
    </td>
    <td>
+   <br/>
    Nivel de estudios<br/>
    <input type="radio" name="estudios" value="elemental" checked="checked">
      Certificado escolar<br/>
@@ -40,6 +79,7 @@ trasladan a otra página.</p>
      Diplomado<br/>
    </td>
    <td>
+   <br/>
    Interesado en los siguientes temas: <br/>
    <input type="checkbox" name="musica"/> Música<br/>
    <input type="checkbox" name="deportes"/> Deportes<br/>
@@ -49,6 +89,7 @@ trasladan a otra página.</p>
    </td>
    </tr>
 </table>
+<br/>
 <p>Día de la semana que le interesa recibirlo:</p>
 <select name="dia">
     <option> Seleccionar </option> 
@@ -61,10 +102,17 @@ trasladan a otra página.</p>
     <option value="Domingo">Domingo</option> 
 </select>
 </p>
-<p><input type="submit" value="Comprobar el formulario"> 
-   <input type="reset" value="Borrar todo"></p>
+<br/>
+
+<button type="submit" class="btn btn-default">Comprobar el formulario</button>
+<button type="submit" class="btn btn-default">Borrar todo</button>
 </form>
-</body>
-<script src="js/jquery.js"></script>
+</div>
+  <div class="col-sm-3">
+    
+  </div>
+</div>    
+ </body>
+ <script src="js/jquery.js"></script>
  <script src="js/bootstrap.min.js"></script>
 </html>
