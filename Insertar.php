@@ -26,7 +26,8 @@ td { padding: 0.2em 2em ; }
   </div>
   <div class="col-sm-8">
 
-<form class="form-inline">
+<form class="form-inline" action="comprobar.php" method="post"/>
+
  <div class="col-sm-4">
     <label>Nombres y Apellidos:</label>
   </div>
@@ -104,7 +105,7 @@ td { padding: 0.2em 2em ; }
 </p>
 <br/>
 
-<button type="submit" class="btn btn-default">Comprobar el formulario</button>
+<button type="submit" class="btn btn-default">Insertar</button>
 <button type="submit" class="btn btn-default">Borrar todo</button>
 </form>
 </div>
