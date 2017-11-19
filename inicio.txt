@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+incio de la pagina
+=======
 hola
+>>>>>>> cada4af1fbbdf22053d20f860bd0e49e417a0196
