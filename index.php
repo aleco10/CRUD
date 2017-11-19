@@ -3,23 +3,26 @@
   <title>Prueba de PHP</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, user-scalable=no">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <style type="text/css">
+    h1{text-align: center;}
+
+  </style>
  </head>
  <body>
-
- <h1>USUARIOS WEB</h1>
+<h1>USUARIOS WEB</h1>
  <div class="row">
   <div class="col-sm-2">
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Usuarios</a></li>
-            <li><a href="#">Productos</a></li>
+            <li><a href="#">Listar Usuarios</a></li>
             <li><a href="#">Historial</a></li>
             <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
           </ul>
         </div>
   </div>
-  <div class="col-sm-6">
-    <table class="table">
+  <div class="col-sm-8">
+    <table class="table table-striped">
     <thead>
       <tr>
         <th>Firstname</th>
@@ -43,7 +46,7 @@
   </ul>
 </div></td>
       </tr>      
-      <tr class="success">
+      <tr >
         <td>Success</td>
         <td>Doe</td>
         <td>john@example.com</td>
@@ -57,7 +60,7 @@
   </ul>
 </div></td>
       </tr>
-      <tr class="danger">
+      <tr >
         <td>Danger</td>
         <td>Moe</td>
         <td>mary@example.com</td>
@@ -71,7 +74,7 @@
   </ul>
 </div></td>
       </tr>
-      <tr class="info">
+      <tr >
         <td>Info</td>
         <td>Dooley</td>
         <td>july@example.com</td>
@@ -85,7 +88,7 @@
   </ul>
 </div></td>
       </tr>
-      <tr class="warning">
+      <tr >
         <td>Warning</td>
         <td>Refs</td>
         <td>bo@example.com</td>
@@ -99,7 +102,7 @@
   </ul>
 </div></td>
       </tr>
-      <tr class="active">
+      <tr >
         <td>Active</td>
         <td>Activeson</td>
         <td>act@example.com</td>
