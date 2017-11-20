@@ -16,8 +16,8 @@
           <ul class="nav navbar-nav">
             <li class="active"><a style="color:black;" href="index.php">Listar Usuarios</a></li>
             <li><a style="color:black;" href="insertar.php">Insertar Usuarios</a></li>
-            <li><a style="color:black;" href="#">Historial</a></li>
-            <li><a style="color:black;" href="#">Reviews <span class="badge">1,118</span></a></li>
+            <li><a style="color:black;" href="Construccion.php">Historial</a></li>
+            <li><a style="color:black;" href="Construccion.php">Reviews <span class="badge">1,118</span></a></li>
           </ul>
         </div>
   </div>
@@ -46,7 +46,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>      
@@ -62,7 +62,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>
@@ -78,7 +78,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>
@@ -94,7 +94,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>
@@ -110,7 +110,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>
@@ -126,7 +126,7 @@
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
     <li><a href="#">Eliminar</a></li>
-    <li><a href="#">Detalle</a></li>
+    <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
       </tr>
