@@ -22,7 +22,14 @@
         </div>
   </div>
   <div class="col-sm-8">
-    <table class="table table-striped">
+    <?
+    $client = new MongoDB\Client;
+
+$companydb = $client->registro;
+
+$empcollection=$companydb->usuarios?>
+<form method="post">
+<table class="table table-striped">
     <thead>
       <tr>
         <th>Firstname</th>
@@ -34,12 +41,18 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>JUAN SAVINO</td>
-        <td>juan.sav@hotmail.com</td>
-        <td>12345678</td>
-        <td>av siempre viva 224</td>
-        <td>martes</td>
+
+<?
+
+if($empcollection ->count()>0){
+  $row = $empcollection->find(['estado':1]);
+  foreach ($row as $key ) { ?>
+    <tr>
+        <td name="nombre"><?echo $key["nombre"]?></td>
+        <td name="email"><?echo $key["email"]?></td>
+        <td name="dni"><?echo $key["dni"]?></td>
+        <td name="direccion"><?echo $key["direccion"]?></td>
+        <td name="dia"><?echo $key["dia"]?></td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -49,90 +62,15 @@
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
-      </tr>      
-      <tr >
-        <td>MARIA LINARES</td>
-        <td>maria.linares@gmail.com</td>
-        <td>19865678</td>
-        <td>Av siempre viva 224</td>
-        <td>Jueves</td>
-        <td><div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="eliminar.php">Eliminar</a></li>
-    <li><a href="Construccion.php">Detalle</a></li>
-  </ul>
-</div></td>
-      </tr>
-      <tr >
-        <td>LUIS CORTEZ</td>
-        <td>luis.cortez@hotmail.com</td>
-        <td>12999678</td>
-        <td>av luna nueva 24</td>
-        <td>Domingo</td>
-        <td><div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="eliminar.php">Eliminar</a></li>
-    <li><a href="Construccion.php">Detalle</a></li>
-  </ul>
-</div></td>
-      </tr>
-      <tr >
-        <td>LUCIA FERRARY</td>
-        <td>luci.fer@gmail.com</td>
-        <td>12349978</td>
-        <td>av estados unidos 43</td>
-        <td>Martes</td>
-        <td><div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="eliminar.php">Eliminar</a></li>
-    <li><a href="Construccion.php">Detalle</a></li>
-  </ul>
-</div></td>
-      </tr>
-      <tr >
-        <td>IVAN YUCRA YUCRA</td>
-        <td>ivan.yucra@hotmail.com</td>
-        <td>99945678</td>
-        <td>av san martin 324</td>
-        <td>Miercoles</td>
-        <td><div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="eliminar.php">Eliminar</a></li>
-    <li><a href="Construccion.php">Detalle</a></li>
-  </ul>
-</div></td>
-      </tr>
-      <tr >
-        <td>ROSARIO ALFARO</td>
-        <td>ros.alf@gmail.com</td>
-        <td>12987678</td>
-        <td>calle haiti 32</td>
-        <td>Viernes</td>
-        <td><div class="dropdown">
-  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="eliminar.php">Eliminar</a></li>
-    <li><a href="Construccion.php">Detalle</a></li>
-  </ul>
-</div></td>
-      </tr>
+      </tr> 
+  <?}
+}
+    ?>
     </tbody>
   </table>
+</form>
   </div>
+    
   <div class="col-sm-3">
     
   </div>
