@@ -45,7 +45,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
@@ -61,7 +61,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
@@ -77,7 +77,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
@@ -93,7 +93,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
@@ -109,7 +109,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>
@@ -125,7 +125,7 @@
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
     <li><a href="Actualizar.php">Editar</a></li>
-    <li><a href="#">Eliminar</a></li>
+    <li><a href="eliminar.php">Eliminar</a></li>
     <li><a href="Construccion.php">Detalle</a></li>
   </ul>
 </div></td>

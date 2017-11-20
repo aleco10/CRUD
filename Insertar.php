@@ -121,10 +121,10 @@ td { padding: 0.2em 2em ; }
 </p>
 <br/>
 <div>
-<button type="submit" class="btn btn-primary">Insertar</button>
+<button type="submit" class="btn btn-success">Insertar</button>
 
 </form>
-<button type="submit" class="btn btn-danger">Borrar todo</button>
+<button type="submit" class="btn btn-danger"><a href="index.php" class="btn-danger" >Cancelar</a></button>
 </div>
 </div>
   <div class="col-sm-3">
