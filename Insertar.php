@@ -27,7 +27,7 @@ td { padding: 0.2em 2em ; }
   </div>
   <div class="col-sm-8">
 
-<form class="form-inline" action="comprobar.php" method="post"/>
+<form class="form-inline" action="insert.php" method="post"/>
 
  <div class="col-sm-4">
     <label>Nombres y Apellidos:</label>
@@ -104,14 +104,13 @@ td { padding: 0.2em 2em ; }
    </tr>
 </table>
 <br/>
-</form><br/>
 
 
 
 <p>Día de la semana que le interesa recibirlo:</p>
 <select name="dia">
     <option> Seleccionar </option> 
-    <option value="">Lunes</option> 
+    <option value="Lunes">Lunes</option> 
     <option value="Martes">Martes</option> 
     <option value="Miércoles">Miercoles</option> 
     <option value="Jueves">Jueves</option> 
@@ -123,8 +122,9 @@ td { padding: 0.2em 2em ; }
 <br/>
 
 <button type="submit" class="btn btn-default">Insertar</button>
-<button type="submit" class="btn btn-default">Borrar todo</button>
+
 </form>
+<button type="submit" class="btn btn-default">Borrar todo</button>
 </div>
   <div class="col-sm-3">
     
