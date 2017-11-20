@@ -10,7 +10,7 @@ td { padding: 0.2em 2em ; }
 
 </head>
 <body style="background-color:#F5F2F2;">
-<h1>PAGINA EN CONSTRUCCION...</h1>
+<h1>SUSCRIPCION ELECTRONICA A NUESTRO BOLETIN</h1>
 <br/>
 <br/>
 
@@ -120,11 +120,12 @@ td { padding: 0.2em 2em ; }
 </select>
 </p>
 <br/>
-
-<button type="submit" class="btn btn-default">Insertar</button>
+<div>
+<button type="submit" class="btn btn-primary">Insertar</button>
 
 </form>
-<button type="submit" class="btn btn-default">Borrar todo</button>
+<button type="submit" class="btn btn-danger">Borrar todo</button>
+</div>
 </div>
   <div class="col-sm-3">
     

@@ -12,14 +12,14 @@ $client = new MongoDB\Client;
 
 $companydb = $client->registro;
 
+$empcollection=$companydb->usuarios
 
-$result = $companydb -> createCollection('usuarios')
-
-$insertOneResult = $result->insertOne(['nombre'->$field_name,'dni'->$field_dni,'direccion'->$field_direccion,'email'->$field_email,'sexo'->$field_sexo,'estudios'->$field_estudios,'interes'->$field_interes,'dia'->$field_dia, 'estado'->1]);
-
+$updateResult = $empcollection ->updateOne (['nombre'->$field_name,'dni'->$field_dni,'direccion'->$field_direccion,'email'->$field_email,'sexo'->$field_sexo,'estudios'->$field_estudios,'interes'->$field_interes,'dia'->$field_dia, 'estado'->0]);
 
 
 ?>
+
+
 
 
 <html>
@@ -34,7 +34,7 @@ td { padding: 0.2em 2em ; }
 
 </head>
 <body style="background-color:#F5F2F2;">
-<h1>Cliente Registrado</h1>
+<h1>Cliente Actualizado</h1>
 <br/>
 <br/>
 

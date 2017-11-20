@@ -106,8 +106,8 @@ td { padding: 0.2em 2em ; }
 </p>
 <br/>
 
-<button type="submit" class="btn btn-default">Actualizar datos</button>
-<button type="submit" class="btn btn-default">Borrar todo</button>
+<button type="submit" class="btn btn-primary">Actualizar datos</button>
+<button type="submit" class="btn btn-danger">Borrar todo</button>
 </form>
 </div>
   <div class="col-sm-3">
