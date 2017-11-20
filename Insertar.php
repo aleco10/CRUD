@@ -10,7 +10,7 @@ td { padding: 0.2em 2em ; }
 
 </head>
 <body style="background-color:#F5F2F2;">
-<h1>SUSCRIPCIÓN ELECTRÓNICA A NUESTRO BOLETIN</h1>
+<h1>PAGINA EN CONSTRUCCION...</h1>
 <br/>
 <br/>
 
