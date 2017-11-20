@@ -9,7 +9,7 @@ td { padding: 0.2em 2em ; }
 </style>
 
 </head>
-<body>
+<body style="background-color:#F5F2F2;">
 <h1>SUSCRIPCIÓN ELECTRÓNICA A NUESTRO BOLETIN</h1>
 <br/>
 <br/>
@@ -18,10 +18,10 @@ td { padding: 0.2em 2em ; }
   <div class="col-sm-2">
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Listar Usuarios</a></li>
-            <li><a href="insertar.php">Insertar Usuarios</a></li>
-            <li><a href="#">Historial</a></li>
-            <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+            <li><a style="color:black;" href="index.php">Listar Usuarios</a></li>
+            <li class="active"><a style="color:black;" href="insertar.php">Insertar Usuarios</a></li>
+            <li><a style="color:black;" href="#">Historial</a></li>
+            <li><a style="color:black;" href="#">Reviews <span class="badge">1,118</span></a></li>
           </ul>
         </div>
   </div>

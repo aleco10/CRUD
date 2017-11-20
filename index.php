@@ -8,16 +8,16 @@
 
   </style>
  </head>
- <body>
+ <body style="background-color:#F5F2F2;">
 <h1>USUARIOS WEB</h1>
  <div class="row">
   <div class="col-sm-2">
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.php">Listar Usuarios</a></li>
-            <li><a href="insertar.php">Insertar Usuarios</a></li>
-            <li><a href="#">Historial</a></li>
-            <li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+            <li class="active"><a style="color:black;" href="index.php">Listar Usuarios</a></li>
+            <li><a style="color:black;" href="insertar.php">Insertar Usuarios</a></li>
+            <li><a style="color:black;" href="#">Historial</a></li>
+            <li><a style="color:black;" href="#">Reviews <span class="badge">1,118</span></a></li>
           </ul>
         </div>
   </div>
@@ -26,16 +26,20 @@
     <thead>
       <tr>
         <th>Firstname</th>
-        <th>Lastname</th>
         <th>Email</th>
+        <th>DNI</th>
+        <th>Direccion</th>
+        <th>Dia</th>
         <th></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Default</td>
-        <td>Defaultson</td>
-        <td>def@somemail.com</td>
+        <td>JUAN SAVINO</td>
+        <td>juan.sav@hotmail.com</td>
+        <td>12345678</td>
+        <td>av siempre viva 224</td>
+        <td>martes</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -47,9 +51,11 @@
 </div></td>
       </tr>      
       <tr >
-        <td>Success</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>MARIA LINARES</td>
+        <td>maria.linares@gmail.com</td>
+        <td>19865678</td>
+        <td>Av siempre viva 224</td>
+        <td>Jueves</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -61,9 +67,11 @@
 </div></td>
       </tr>
       <tr >
-        <td>Danger</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
+        <td>LUIS CORTEZ</td>
+        <td>luis.cortez@hotmail.com</td>
+        <td>12999678</td>
+        <td>av luna nueva 24</td>
+        <td>Domingo</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -75,9 +83,11 @@
 </div></td>
       </tr>
       <tr >
-        <td>Info</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
+        <td>LUCIA FERRARY</td>
+        <td>luci.fer@gmail.com</td>
+        <td>12349978</td>
+        <td>av estados unidos 43</td>
+        <td>Martes</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -89,9 +99,11 @@
 </div></td>
       </tr>
       <tr >
-        <td>Warning</td>
-        <td>Refs</td>
-        <td>bo@example.com</td>
+        <td>IVAN YUCRA YUCRA</td>
+        <td>ivan.yucra@hotmail.com</td>
+        <td>99945678</td>
+        <td>av san martin 324</td>
+        <td>Miercoles</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
@@ -103,9 +115,11 @@
 </div></td>
       </tr>
       <tr >
-        <td>Active</td>
-        <td>Activeson</td>
-        <td>act@example.com</td>
+        <td>ROSARIO ALFARO</td>
+        <td>ros.alf@gmail.com</td>
+        <td>12987678</td>
+        <td>calle haiti 32</td>
+        <td>Viernes</td>
         <td><div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
