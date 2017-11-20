@@ -33,65 +33,81 @@ td { padding: 0.2em 2em ; }
     <label>Nombres y Apellidos:</label>
   </div>
   <div class="col-sm-8">
-    <input name="nombre" type="text" class="form-control" id="nombre" size="30"/><br/>
+    <input name='nombre' type="text" class="form-control" id="nombre" size="30"/><br/>
   </div>
  
   <div class="col-sm-4">
     <label>Documento de Identificación (DNI):</label>
   </div>
   <div class="col-sm-8">  
-    <input name="dni" type="text" class="form-control" id="dni" size="30"/><br/>
+    <input name='dni' type="text" class="form-control" id="dni" size="30"/><br/>
   </div>
 
   <div class="col-sm-4">
     <label>Dirección: </label>
   </div>
   <div class="col-sm-8">
-    <input name="direccion" type="text" class="form-control" id="direccion" size="30"/><br/>
+    <input name='direccion' type="text" class="form-control" id="direccion" size="30"/><br/>
   </div>
 
   <div class="col-sm-4">
     <label>Correo Electrónico: </label>
   </div>
   <div class="col-sm-8">
-    <input name="email" type="text" class="form-control" id="email" size="30"/><br/>
+    <input name='email' type="text" class="form-control" id="email" size="30"/><br/>
   </div>
 
   <br/>
-</form><br/>
+
 
 <table>
    <tr>
    <td>
    <br/>
    Sexo<br/>
-   <input type="radio" name="sexo" value="V"/> Masculino<br/>
-   <input type="radio" name="sexo" value="M"/> Femenino</p>
+   <input type="radio" name='sexo' value="0"/> Masculino<br/>
+   <input type="radio" name='sexo' value="1"/> Femenino</p>
    </td>
    <td>
    <br/>
    Nivel de estudios<br/>
-   <input type="radio" name="estudios" value="elemental" checked="checked">
+   <input type="radio" name='estudios' value="elemental" checked="checked">
      Certificado escolar<br/>
-   <input type="radio" name="estudios" value="basico"/> 
+   <input type="radio" name='estudios' value="basico"/> 
      Graduado Universitario <br/>
-   <input type="radio" name="estudios" value="bachiller"/> 
+   <input type="radio" name='estudios' value="bachiller"/> 
      Bachiller - Formación Profesional <br/>
-   <input type="radio" name="estudios" value="Diplomado"/> 
+   <input type="radio" name='estudios' value="Diplomado"/> 
      Diplomado<br/>
    </td>
    <td>
    <br/>
    Interesado en los siguientes temas: <br/>
-   <input type="checkbox" name="musica"/> Música<br/>
-   <input type="checkbox" name="deportes"/> Deportes<br/>
-   <input type="checkbox" name="cine"/> Cine<br/>
-   <input type="checkbox" name="libros"/> Libros<br/>
-   <input type="checkbox" name="ciencia"/> Ciencia</p>
+
+    <div class="checkbox" name='interes'>
+      <label><input type="checkbox" value="Música">Música</label>
+    </div><br/>
+    <div class="checkbox" name='interes'>
+      <label><input type="checkbox" value="Deportes">Deportes</label>
+    </div><br/>
+    <div class="checkbox " name='interes'
+      <label><input type="checkbox" value="Libros" >Libros</label>
+    </div><br/>
+    <div class="checkbox " name='interes'>
+      <label><input type="checkbox" value="Cine" >Cine</label>
+    </div><br/>
+    <div class="checkbox " name='interes'>
+      <label><input type="checkbox" value="Ciencia" >Ciencia</label>
+    </div><br/>
+
    </td>
    </tr>
 </table>
 <br/>
+</form><br/>
+
+
+
 <p>Día de la semana que le interesa recibirlo:</p>
 <select name="dia">
     <option> Seleccionar </option> 
