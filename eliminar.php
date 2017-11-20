@@ -34,7 +34,7 @@ td { padding: 0.2em 2em ; }
 
 </head>
 <body style="background-color:#F5F2F2;">
-<h1>Cliente Actualizado</h1>
+<h1>Cliente Eliminado</h1>
 <br/>
 <br/>
 
